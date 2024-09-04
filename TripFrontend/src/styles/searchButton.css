@@ -1,0 +1,19 @@
+.containerS{  
+  display: flex;
+  flex-direction: row;
+  background-blend-mode: color-burn;
+  -webkit-backdrop-filter: blur(60px) brightness(100%);
+  backdrop-filter: blur(60px) brightness(100%);
+  background-color: #5eec97ea;
+  border-radius: 76px;
+  width: 200px;
+  padding: 6px 8px;
+  border-color: transparent;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerS p{
+  margin: 10px;
+}

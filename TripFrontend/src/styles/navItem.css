@@ -1,0 +1,65 @@
+:root {
+  --controlshover: rgba(255, 255, 255, 0.04);
+  --textsecondary: rgba(255, 255, 255, 0.40);
+  
+  --textprimary: rgba(255, 255, 255, 0.96);
+  
+}
+
+.label {
+   align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 4px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.label:hover{
+  align-items: center;
+  background-color: #5e5e5e2e;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100px;
+}
+
+.label .nav-item{
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  background-blend-mode: lighten;
+  
+  color: var(--textsecondary);
+  display: -webkit-box;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+  
+}
+
+.label .nav-item:hover{
+  --webkit-box-orient: vertical;
+  --webkit-line-clamp: 1;
+  color: var(--textprimary);
+  display: -webkit-box;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+
