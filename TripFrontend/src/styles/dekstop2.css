@@ -7,6 +7,10 @@
   height: 811px;
   position: relative;
   width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .features .card {

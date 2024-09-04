@@ -1,0 +1,296 @@
+
+.boxF {
+  height: 447px;
+  width: 100%;
+}
+
+.boxF .footer {
+  background-color: #295943;
+  height: 447px;
+  
+  width: 100%;
+}
+
+.boxF .group {
+  height: 347px;
+  left: 56px;
+  position: relative;
+  top: 41px;
+  width: 1287px;
+}
+
+.boxF .div {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 268px;
+  width: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.boxF .frameF {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+ 
+  padding: 5px 10px;
+
+  width: 153px;
+}
+
+.boxF .socialF{
+  display: flex;
+  gap: 5px;
+}
+
+
+.boxF .code-cascaders {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 19.2px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 34.6px;
+  
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.boxF .img {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 45px;
+  width: 227px;
+}
+
+.boxF .group-2 {
+  height: 237px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1287px;
+}
+
+.boxF .group-3 {
+  height: 176px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 301px;
+}
+
+.boxF .frameF-wrapper {
+  height: 116px;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 301px;
+}
+
+.boxF .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.boxF .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 281px;
+}
+
+.boxF .brand-wrapper {
+  height: 60px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.boxF .brand {
+  height: 60px;
+}
+
+.boxF .logo {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.boxF .travelaja {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 33.2px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 39.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.boxF .group-4 {
+  height: 225px;
+  left: 427px;
+  position: absolute;
+  top: 12px;
+  width: 88px;
+}
+
+.boxF .group-4 a{
+  text-decoration: none;
+}
+
+.boxF .group-4 a:hover{
+  color: #f3f8c1;
+}
+
+.boxF .group-6 a{
+  text-decoration: none;
+}
+
+.boxF .group-6 a:hover{
+  color: #f3f8c1;
+}
+
+.boxF .frameF-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 1px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.boxF .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 19.2px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 34.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.boxF .group-5 {
+  height: 170px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  width: 88px;
+}
+
+.boxF .link {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 0;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.boxF .link-2 {
+  color: #ffffff;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.boxF .link-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 0;
+  padding: 5px 10px;
+  position: absolute;
+  top: 34px;
+}
+
+.boxF .link-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 1px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 68px;
+}
+
+.boxF .link-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 1px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 102px;
+}
+
+.boxF .link-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 1px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 136px;
+}
+
+.boxF .group-6 {
+  height: 225px;
+  left: 651px;
+  position: absolute;
+  top: 12px;
+  width: 181px;
+}
+
+.boxF .group-7 {
+  height: 170px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  width: 181px;
+}
+
+.boxF .group-8 {
+  height: 225px;
+  left: 965px;
+  position: absolute;
+  top: 12px;
+  width: 322px;
+}
+
+.boxF .group-9 {
+  height: 170px;
+  left: 0;
+  position: absolute;
+  top: 55px;
+  width: 322px;
+}
+
+
