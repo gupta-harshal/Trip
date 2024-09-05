@@ -3,8 +3,7 @@ import Navitem from "./navItem";
 import Dest from "./destination";
 import "./styles/style.css";
 import SearchButton from "./searchButton";
-
-
+import Signup from "./Signup.jsx";
 const Desktop = () => {
   return (
     <div className="desktop">
@@ -51,7 +50,7 @@ const Desktop = () => {
               <Navitem item="Booking"></Navitem>
               <Navitem item="News"></Navitem>
               <Navitem item="Contact"></Navitem>
-              <Navitem item="Account"></Navitem>
+              <Navitem item="Account" link="/signup"></Navitem>
               
             </div>
             <div className="language">
