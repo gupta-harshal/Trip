@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/dekstop2.css";
 import Button from "./button";
-
 const Dekstop2 = () => {
   return (
     <div className="features">

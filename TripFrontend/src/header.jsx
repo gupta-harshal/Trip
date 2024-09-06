@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/header.css'
 import Navitem from './navItem'
+import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div className="headerH">
@@ -8,7 +9,7 @@ const Header = () => {
       <Navitem item="Booking"></Navitem>
       <Navitem item="News"></Navitem>
       <Navitem item="Contact"></Navitem>
-      <Navitem item="Account"></Navitem>
+      <Link to="/signup"><Navitem item="Account"></Navitem></Link>
               
     </div>
   )

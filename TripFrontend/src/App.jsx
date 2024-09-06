@@ -1,16 +1,20 @@
 import React from "react";
-import Desktop from './index.jsx'
-import Dekstop2 from "./dekstop2.jsx";
-import { Desktop3 } from "./Page3.jsx";
-import Footer from "./footer.jsx";
-
+import Home from "./Home.jsx"
+import {createBrowserRouter, Route, RouterProvider} from 'react-router-dom'
+import Signup from "./Signup.jsx";
 const App=()=>{
+  const router=createBrowserRouter([
+    {
+      path:'/',
+      element:<Home></Home>
+    },
+    {
+      path:'/signup',
+      element:<Signup/>
+    }])
   return(
     <div>
-      <Desktop/>
-      <Dekstop2/>
-      <Desktop3/>
-      <Footer/>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   )
 };

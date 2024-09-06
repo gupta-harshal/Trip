@@ -1,5 +1,7 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://admin:adminpass@cluster0.esjcvar.mongodb.net/TripDataBase');
+const env=require('dotenv')
+env.config();
+mongoose.connect(process.env.db);
 const UserSchema=new mongoose.Schema({
     username:String,
     password:String,
