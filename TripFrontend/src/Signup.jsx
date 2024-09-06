@@ -2,6 +2,7 @@ import React from "react";
 import Navitem from "./navItem";
 import "./styles/signup.css";
 import {Link} from 'react-router-dom'
+import Header from "./header";
 const Signup = () => {
   return (
     <div className="signup">
@@ -36,10 +37,7 @@ const Signup = () => {
             </div>
             <div className="frame-2">
             <Link to='/'><Navitem item="Explore"></Navitem></Link>
-              <Navitem item="Booking"></Navitem>
-              <Navitem item="News"></Navitem>
-              <Navitem item="Contact"></Navitem>
-              <Navitem item="Account"></Navitem>
+              <Header/>
             </div>
             <div className="language">
               <img className="group-3" alt="Group" src="group-1.png" />

@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Home.jsx"
 import {createBrowserRouter, Route, RouterProvider} from 'react-router-dom'
 import Signup from "./Signup.jsx";
+import Booking from "./booking.jsx";
 const App=()=>{
   const router=createBrowserRouter([
     {
@@ -11,7 +12,12 @@ const App=()=>{
     {
       path:'/signup',
       element:<Signup/>
-    }])
+    },
+    {
+      path:'/booking',
+      element:<Booking/>
+    }
+  ])
   return(
     <div>
       <RouterProvider router={router}></RouterProvider>

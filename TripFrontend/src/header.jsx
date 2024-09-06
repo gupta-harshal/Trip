@@ -5,11 +5,11 @@ import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div className="headerH">
-      <Navitem item="Explore"></Navitem>
-      <Navitem item="Booking"></Navitem>
+      <Link className='linkH' to='/'><Navitem item="Explore"></Navitem></Link>
+      <Link className='linkH' to='/booking'><Navitem item="Booking"></Navitem></Link>
       <Navitem item="News"></Navitem>
       <Navitem item="Contact"></Navitem>
-      <Link to="/signup"><Navitem item="Account"></Navitem></Link>
+      <Link className='linkH' to="/signup"><Navitem item="Account"></Navitem></Link>
               
     </div>
   )
