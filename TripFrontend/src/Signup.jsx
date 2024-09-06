@@ -1,15 +1,15 @@
 import React from "react";
 import Navitem from "./navItem";
 import "./styles/signup.css";
-
+import {Link} from 'react-router-dom'
 const Signup = () => {
   return (
     <div className="signup">
       <div className="dashboard-wrapper">
         <div className="dashboard">
           <div className="overlap-group">
-            <img className="png" alt="Png" src="../Signup_girl.png" />
-            <div className="frame">
+            <img className="png" alt="Png" src='../src/assets/signupgirl.png' />
+            <div className="sif">
               <form className="signup-form">
                 <h2>Sign Up</h2>
                 <div className="form-group">
@@ -35,7 +35,7 @@ const Signup = () => {
               </div>
             </div>
             <div className="frame-2">
-              <Navitem item="Explore"></Navitem>
+            <Link to='/'><Navitem item="Explore"></Navitem></Link>
               <Navitem item="Booking"></Navitem>
               <Navitem item="News"></Navitem>
               <Navitem item="Contact"></Navitem>
