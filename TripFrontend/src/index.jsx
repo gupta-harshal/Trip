@@ -4,6 +4,7 @@ import Dest from "./destination";
 import "./styles/style.css";
 import SearchButton from "./searchButton";
 import Signup from "./Signup.jsx";
+import {Link} from 'react-router-dom'
 const Desktop = () => {
   return (
     <div className="desktop">
@@ -50,7 +51,7 @@ const Desktop = () => {
               <Navitem item="Booking"></Navitem>
               <Navitem item="News"></Navitem>
               <Navitem item="Contact"></Navitem>
-              <Navitem item="Account" link="/signup"></Navitem>
+              <Link to='/signup'><Navitem item="Account"></Navitem></Link>
               
             </div>
             <div className="language">
