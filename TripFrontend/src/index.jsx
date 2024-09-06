@@ -3,8 +3,7 @@ import Navitem from "./navItem";
 import Dest from "./destination";
 import "./styles/style.css";
 import SearchButton from "./searchButton";
-
-
+import Header from "./header";
 const Desktop = () => {
   return (
     <div className="desktop">
@@ -46,14 +45,7 @@ const Desktop = () => {
                 <div className="travelaja">travnt</div>
               </div>
             </div>
-            <div className="frame-2">
-              <Navitem item="Explore"></Navitem>
-              <Navitem item="Booking"></Navitem>
-              <Navitem item="News"></Navitem>
-              <Navitem item="Contact"></Navitem>
-              <Navitem item="Account"></Navitem>
-              
-            </div>
+            <Header/>
             <div className="language">
               <img className="group-3" alt="Group" src="group-1.png" />
               <div className="text-wrapper-5">IN</div>

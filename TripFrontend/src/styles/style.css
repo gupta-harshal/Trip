@@ -206,14 +206,7 @@
   width: fit-content;
 }
 
-.desktop .frame-2 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 86px;
-  justify-content: center;
-  position: relative;
-}
+
 
 
 
