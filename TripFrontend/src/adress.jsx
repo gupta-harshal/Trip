@@ -1,12 +1,15 @@
 import React from 'react'
 import './styles/adress.css'
+import Hotel from './hotel';
+import { IoSearch } from "react-icons/io5";
 
 
 import SearchButton from './searchButton';
 
 const Address= () => {
   return (
-    <div className="address-container">
+    <div className="adress">
+      <div className="address-container">
       <div className="address-div">
         <div className="address-icon">
           <div className="address-button-symbol">
@@ -51,10 +54,24 @@ const Address= () => {
           <input className="address-text-wrapper-2"></input>
         </div>
       </div>
-      <SearchButton
-        name="Search"
-      />
+      <button className='containerS'>Search<IoSearch /></button>
       
+      
+    </div>
+    <div className="hotel-reccomendation">
+      <h3 className="hotel-text" style={{color: "white"}}>We have found over 10000 for you to stay in Thailand</h3>
+          
+    </div>
+    <div className='hotel-container'>
+      <Hotel
+            
+        hotelname="Siam Hotel"
+        pricing="$ 98"
+        place="pattaya"
+        rating="8.3"
+      />
+          
+    </div>
     </div>
   );
 };

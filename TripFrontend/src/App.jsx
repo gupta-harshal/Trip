@@ -4,6 +4,7 @@ import {createBrowserRouter, Route, RouterProvider} from 'react-router-dom'
 import Signup from "./Signup.jsx";
 import Booking from "./booking.jsx";
 import Bot from "./Bot.jsx";
+import Signupform from "./signupform.jsx";
 const App=()=>{
   const router=createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const App=()=>{
     },{
       path:'/chat',
       element:<Bot/>
+    },
+    {
+      path:'/signupform',
+      element:<Signupform/>
     }
   ])
   return(

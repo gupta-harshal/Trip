@@ -15,20 +15,7 @@ const Booking = () => {
             <Address/>
 
            
-            <div className="hotel-reccomendation">
-              <h3 className="hotel-text" style={{color: "white"}}>We have found over 10000 for you to stay in Thailand</h3>
-              
-            </div>
-            <div className='hotel-container'>
-              <Hotel
-                
-                hotelname="Siam Hotel"
-                pricing="$ 98"
-                place="pattaya"
-                rating="8.3"
-              />
-              
-            </div>
+            
             <h3 className="hotel-text" style={{color: "white"}}>The most recommended</h3>
             <HotelContainer2/>
         </div>
