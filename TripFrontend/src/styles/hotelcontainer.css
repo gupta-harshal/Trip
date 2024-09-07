@@ -1,0 +1,7 @@
+.hotel-container{
+  display: flex;
+  gap: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  
+}

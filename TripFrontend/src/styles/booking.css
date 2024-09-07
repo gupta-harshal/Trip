@@ -1,0 +1,23 @@
+:root{
+  --viewsdarker: rgba(214, 214, 214, 0.45);
+}
+
+.booking-dashboard{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding:10px ;
+}
+.booking-dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10px;
+}
+
+.hotel-reccomendation h3 {
+  margin-top: 0;
+}
