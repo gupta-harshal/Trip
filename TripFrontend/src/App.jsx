@@ -3,6 +3,7 @@ import Home from "./Home.jsx"
 import {createBrowserRouter, Route, RouterProvider} from 'react-router-dom'
 import Signup from "./Signup.jsx";
 import Booking from "./booking.jsx";
+import Bot from "./Bot.jsx";
 const App=()=>{
   const router=createBrowserRouter([
     {
@@ -16,6 +17,9 @@ const App=()=>{
     {
       path:'/booking',
       element:<Booking/>
+    },{
+      path:'/chat',
+      element:<Bot/>
     }
   ])
   return(

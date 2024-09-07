@@ -1,0 +1,27 @@
+.bot-label {
+    height: 84px;
+    width: 414px;
+  }
+  
+  .bot-memories {
+    color: #ffffffcc;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .bot-frame {
+    align-items: center;
+    border-radius: 40px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px;
+    position: relative;
+    background-color: #333; /* Optional background */
+  }
+  

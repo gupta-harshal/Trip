@@ -1,0 +1,251 @@
+:root {
+    --bot-controlsidle: rgba(255, 255, 255, 0.07);
+    --bot-heading-1-font-family: "Poppins", Helvetica;
+    --bot-heading-1-font-size: 33.18000030517578px;
+    --bot-heading-1-font-style: normal;
+    --bot-heading-1-font-weight: 400;
+    --bot-heading-1-letter-spacing: 0px;
+    --bot-heading-1-line-height: 120.00000476837158%;
+    --bot-textprimary: rgba(255, 255, 255, 0.96);
+    --bot-textsecondary: rgba(255, 255, 255, 0.23);
+    --bot-viewsdarker: rgba(214, 214, 214, 0.45);
+    --bot-viewslighter: rgba(255, 255, 255, 0.07);
+    --bot-windowsglass: rgba(128, 128, 128, 0.3);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bot-desktop {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .bot-desktop .bot-dashboard-wrapper {
+    width: 100%;
+    background-image: url('../background.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  .bot-desktop .bot-dashboard {
+    -webkit-backdrop-filter: blur(60px) brightness(100%);
+    backdrop-filter: blur(60px) brightness(100%);
+    background-color: #ffffff1a;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0.4) 4%,
+        rgba(255, 255, 255, 0.03) 100%
+      );
+    border-radius: 56px;
+    box-shadow: var(--bot-effect-glass-primary);
+    height: 90vh;
+    margin: 3% 3%;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bot-desktop .bot-overlap-group {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bot-desktop .bot-hero-title {
+    height: 30%;
+    left: 8%;
+    position: absolute;
+    top: 181px;
+    width: 873px;
+  }
+  
+  .bot-desktop .bot-plan-and-book-your {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 114px;
+    width: 867px;
+  }
+  
+  .bot-desktop .bot-text-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 52px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 62.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .bot-desktop .bot-png {
+    height: 90%;
+    left: 60%;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+  }
+  
+  .bot-desktop .bot-frame {
+    align-items: center;
+    border-radius: 76.13px;
+    display: inline-flex;
+    gap: 13px;
+    justify-content: center;
+    left: 8%;
+    padding: 7.61px 20px;
+    position: absolute;
+    top: 480px;
+    border-radius: 76.133px;
+    background: var(--bot-views-darker, linear-gradient(0deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.08) 100%), rgba(214, 214, 214, 0.45));
+    background-blend-mode: luminosity, color-burn;
+  }
+  
+  .bot-desktop .bot-symbol-2 {
+    color: var(--bot-textprimary);
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 19px;
+    font-weight: 500;
+    height: 44px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 44px;
+  }
+  
+  .bot-desktop .bot-destination-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 3.05px;
+    justify-content: center;
+    margin-left: -23.48px;
+    margin-right: -13.52px;
+    position: relative;
+    transform: rotate(90deg);
+  }
+  
+  .bot-desktop .bot-navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 95px;
+    position: absolute;
+    top: 36px;
+    width: 1181px;
+  }
+  
+  .bot-desktop .bot-brand {
+    height: 60px;
+    position: relative;
+    width: 107px;
+  }
+  
+  .bot-desktop .bot-logo {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+  }
+  
+  .bot-desktop .bot-travelaja {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 33.2px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 39.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .bot-desktop .bot-frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 86px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .bot-desktop .bot-language {
+    height: 29px;
+    margin-right: -2px;
+    position: relative;
+    width: 74px;
+  }
+  
+  .bot-desktop .bot-group-3 {
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 18px;
+  }
+  
+  .bot-desktop .bot-text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .bot-desktop .bot-group-4 {
+    height: 16px;
+    left: 56px;
+    position: absolute;
+    top: 7px;
+    width: 16px;
+  }
+  
+  .bot-user-chats{
+position: absolute;
+top: -600px;
+margin-top: 200px;
+  }
+  .bot-ai-chats{
+    position: absolute;
+    top: -150px;
+    left: 400px;
+      }
+      .chat-searchBox{
+        position: absolute;
+        top: 550px;
+      }
