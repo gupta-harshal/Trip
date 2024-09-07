@@ -1,27 +1,56 @@
 import React from 'react'
 import './styles/adress.css'
-import Addressbar from './addressbar';
+
+
 import SearchButton from './searchButton';
 
 const Address= () => {
   return (
     <div className="address-container">
-      <Addressbar
-        activity="Going to"
-        main="Pattaya"
-      />
-      <Addressbar 
-        activity="Date"
-        main="17 Aug - 17 Sept"
-      />
-      <Addressbar
-        activity="Passengers"
-        main="2 Passengers"
-      />
-      <Addressbar
-        activity="Room"
-        main="1 Room"
-      />
+      <div className="address-div">
+        <div className="address-icon">
+          <div className="address-button-symbol">
+            <div className="address-symbol"></div>
+          </div>
+        </div>
+        <div className="address-destination">
+          <div className="address-text-wrapper">Going to</div>
+          <input className="address-text-wrapper-2"></input>
+        </div>
+      </div>
+      <div className="address-div">
+        <div className="address-icon">
+          <div className="address-button-symbol">
+            <div className="address-symbol"></div>
+          </div>
+        </div>
+        <div className="address-destination">
+          <div className="address-text-wrapper">Date</div>
+          <input className="address-text-wrapper-2"></input>
+        </div>
+      </div>
+      <div className="address-div">
+        <div className="address-icon">
+          <div className="address-button-symbol">
+            <div className="address-symbol"></div>
+          </div>
+        </div>
+        <div className="address-destination">
+          <div className="address-text-wrapper">Passenger</div>
+          <input className="address-text-wrapper-2"></input>
+        </div>
+      </div>
+      <div className="address-div">
+        <div className="address-icon">
+          <div className="address-button-symbol">
+            <div className="address-symbol"></div>
+          </div>
+        </div>
+        <div className="address-destination">
+          <div className="address-text-wrapper">Room</div>
+          <input className="address-text-wrapper-2"></input>
+        </div>
+      </div>
       <SearchButton
         name="Search"
       />

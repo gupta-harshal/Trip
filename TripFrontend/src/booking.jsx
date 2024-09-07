@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from './header';
-import HotelContainer from './HotelContainer';
+import Hotel from './hotel'
 import HotelContainer2 from './hotelcontainer2';
 import Address from './adress';
+import './styles/hotelcontainer.css'
 
 const Booking = () => {
   return (
@@ -18,7 +19,16 @@ const Booking = () => {
               <h3 className="hotel-text" style={{color: "white"}}>We have found over 10000 for you to stay in Thailand</h3>
               
             </div>
-            <HotelContainer/>
+            <div className='hotel-container'>
+              <Hotel
+                
+                hotelname="Siam Hotel"
+                pricing="$ 98"
+                place="pattaya"
+                rating="8.3"
+              />
+              
+            </div>
             <h3 className="hotel-text" style={{color: "white"}}>The most recommended</h3>
             <HotelContainer2/>
         </div>
