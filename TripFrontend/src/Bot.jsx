@@ -1,13 +1,11 @@
-import React from "react";
-import Navitem from "./navItem";
-import Dest from "./destination";
-import "./styles/bot.css";
-import SearchButton from "./searchButton";
-import { Chat } from "./Chat";
-import { SearchBox } from "./SearchBox";
-
+import React, { useState } from 'react';
+import Header from './header';
+import ChatBot from './ChatBot'; // Import ChatBot component
+import './styles/bot.css';
 
 const Bot = () => {
+  const [messages, setMessages] = useState([]); // Initialize state for messages
+
   return (
     <div className="bot-desktop">
       <div className="bot-dashboard-wrapper">
@@ -22,20 +20,13 @@ const Bot = () => {
               </div>
             </div>
             <div className="bot-frame-2">
-              <Navitem item="Explore"></Navitem>
-              <Navitem item="Booking"></Navitem>
-              <Navitem item="News"></Navitem>
-              <Navitem item="Contact"></Navitem>
-              <Navitem item="Account"></Navitem>
+              <Header />
             </div>
             <div className="bot-user-chats">
-                <Chat/>
+              {/* Additional user chat UI components can be added here if needed */}
             </div>
             <div className="bot-ai-chats">
-                <Chat/>
-            </div>
-            <div className="chat-searchBox">
-                <SearchBox/>
+              <ChatBot messages={messages} setMessages={setMessages} /> {/* Pass messages and setMessages */}
             </div>
             <div className="bot-language">
               <img className="bot-group-3" alt="Group" src="group-1.png" />
@@ -48,4 +39,5 @@ const Bot = () => {
     </div>
   );
 };
+
 export default Bot;
