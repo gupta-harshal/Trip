@@ -30,15 +30,10 @@ const Signup = () => {
             </div>
           </div>
           <div className="navbar">
-            <div className="brand">
-              <div className="logo">
-                <div className="travelaja">travnt</div>
-              </div>
-            </div>
-            <div className="frame-2">
-            <Link to='/'><Navitem item="Explore"></Navitem></Link>
+            
+            
               <Header/>
-            </div>
+           
             <div className="language">
               <img className="group-3" alt="Group" src="group-1.png" />
               <div className="text-wrapper-5">IN</div>
