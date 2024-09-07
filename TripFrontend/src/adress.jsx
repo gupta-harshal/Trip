@@ -1,12 +1,33 @@
 import React from 'react'
-import './assets/styles/adress.css'
+import './styles/adress.css'
+import Addressbar from './addressbar';
+import SearchButton from './searchButton';
 
-const Adress = () => {
+const Address= () => {
   return (
-    <div className='adress-container'>
+    <div className="address-container">
+      <Addressbar
+        activity="Going to"
+        main="Pattaya"
+      />
+      <Addressbar 
+        activity="Date"
+        main="17 Aug - 17 Sept"
+      />
+      <Addressbar
+        activity="Passengers"
+        main="2 Passengers"
+      />
+      <Addressbar
+        activity="Room"
+        main="1 Room"
+      />
+      <SearchButton
+        name="Search"
+      />
       
     </div>
-  )
-}
+  );
+};
 
-export default Adress
+export default Address

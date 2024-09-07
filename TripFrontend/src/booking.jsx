@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './header';
 import HotelContainer from './HotelContainer';
 import HotelContainer2 from './hotelcontainer2';
+import Address from './adress';
 
 const Booking = () => {
   return (
@@ -10,6 +11,8 @@ const Booking = () => {
         <div className="dashboard booking-dashboard">
           
             <Header/>
+            <Address/>
+
            
             <div className="hotel-reccomendation">
               <h3 className="hotel-text" style={{color: "white"}}>We have found over 10000 for you to stay in Thailand</h3>

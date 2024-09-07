@@ -1,3 +1,118 @@
-.adress-container{
+
+.address-container {
+  align-items: center;
+  background-blend-mode: color-burn;
+  background: linear-gradient(0deg, rgba(94, 94, 94, 0.138) 0%, rgba(94, 94, 94, 0.084) 100%), rgba(255, 255, 255, 0.071);
+  -webkit-backdrop-filter: blur(20px) brightness(100%);
+  backdrop-filter: blur(20px) brightness(100%);
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.address-container .address-div {
+  align-items: center;
+  background-blend-mode: lighten;
+  
+  background-color: rgba(255, 255, 255, 0.085);;
+  border-radius: 100px;
+  display: flex;
+  position: relative;
+  width: 250px;
+}
+
+.address-container .address-icon {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 5px;
+  position: relative;
+}
+
+.address-container .address-button-symbol {
+  background-blend-mode: lighten;
+  border-radius: 500px;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+  width: 44px;
+}
+
+.address-container .address-symbol {
+  color: var(--textprimary);
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 19px;
+  font-weight: 500;
+  height: 35px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 44px;
+}
+
+.address-container .address-destination {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.address-container .address-text-wrapper {
+  background-blend-mode: lighten;
+  color:rgba(154, 255, 250, 0.662) ;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.address-container .address-text-wrapper-2 {
+  color: var(--textprimary);
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: relative;
+  text-align:start;
+  white-space: nowrap;
+  width: fit-content;
+}
+.address-container input{
+  background-color: transparent;
+    
+    border: none;
+    padding: 0;
+    margin: 0;
+  
+    
+    background: none;
+  
+    outline: none;
+  
+   
+    font: inherit;  
+    
+   
+    -webkit-appearance: none; 
+    -moz-appearance: none;     
+    appearance: none;          
+  
   
 }
