@@ -34,7 +34,8 @@ const Desktop = () => {
                 activity="Date"
                 main="Aug 17- Sept 17"
               />
-              <SearchButton/>
+              <SearchButton
+              name="Find Trip"/>
 
             </div>
 

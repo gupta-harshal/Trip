@@ -3,7 +3,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 import "./styles/SearchBox.css";
 import SearchButton from "./searchButton";
 
-export const SearchBox = ({ onchange, onclick }) => {
+export const SearchBox = ({ onchange, onclick, render}) => {
   return (
     <div className="search-frame">
       <div className="search-memories">Ask Reva...</div>
@@ -15,7 +15,8 @@ export const SearchBox = ({ onchange, onclick }) => {
       />
       <SearchButton 
         onclick={onclick} 
-        button="Go" 
+        button="Go"
+        name={render} 
       />
     </div>
   );

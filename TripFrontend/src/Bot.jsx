@@ -50,11 +50,7 @@ const Bot = () => {
               </div>
             </div>
             <div className="bot-frame-2">
-              <Navitem item="Explore" />
-              <Navitem item="Booking" />
-              <Navitem item="News" />
-              <Navitem item="Contact" />
-              <Navitem item="Account" />
+             <Header/>
             </div>
             <div className="bot-user-chats">
             <Chat chats={Ask}/>
@@ -66,6 +62,7 @@ const Bot = () => {
               <SearchBox 
                 onchange={(e) => setAsk(e.target.value)} 
                 onclick={generateAnswer}
+                render="Enter"
               />
             </div>
             <div className="bot-language">

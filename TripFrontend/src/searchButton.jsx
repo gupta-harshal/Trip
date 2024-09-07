@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'; // Import PropTypes
 import { IoSearch } from "react-icons/io5";
 import './styles/searchButton.css';
 
-const SearchButton = ({ onclick }) => {
+const SearchButton = ({ onclick, name}) => {
   const handleClick = () => {
     console.log("Button clicked"); // Debugging line to see if the click is registered
     if (onclick) {
@@ -17,7 +17,7 @@ const SearchButton = ({ onclick }) => {
       className='containerS' 
       aria-label="Find Trip Now"
     >
-      <p>Find Trip Now</p>
+      <p>{name}</p>
       <IoSearch />
     </button>
   );
