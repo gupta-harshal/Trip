@@ -68,3 +68,7 @@
   font-weight: 500;
   line-height: 16px; 
 }
+
+.hotel-name{
+  overflow: hidden;
+}

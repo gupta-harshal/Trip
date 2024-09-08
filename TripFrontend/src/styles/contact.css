@@ -1,23 +1,13 @@
-.signup-container{
-  display: flex;
+.contact-container{
   width: 100%;
-  padding: 20px;
-  gap: 20px;
-}
-
-.botimage{
-  width: 40%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
 }
 
-.botimage img{
-  width: 400px;
-  height: 400px;
-}
 
 form{
-  width: 60%;
+  width: 80%;
 }
 .inputfield{
   color: white;
@@ -59,15 +49,4 @@ form{
     border-radius: 12px;
     background: var(--Views-Darker, linear-gradient(0deg, rgba(46, 46, 46, 0.08) 0%, rgba(48, 48, 48, 0.08) 100%), rgba(214, 214, 214, 0.09));
     background-blend-mode: luminosity, color-burn;
-}
-.signup-name{
-  width: 100%;
-  display: flex;
-  gap: 5px;
-}
-
-.signup-place{
-  width: 100%;
-  display: flex;
-  gap: 5px;
 }

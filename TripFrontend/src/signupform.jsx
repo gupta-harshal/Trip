@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './header';
 import Inputfield from './inputfield';
+import signupBot from './assets/signupbot.png';
 
 const Signupform = () => {
   return (
@@ -10,7 +11,7 @@ const Signupform = () => {
           <Header/>
           <div className="signup-container">
             <div className="botimage">
-              <img src="" alt="" />
+              <img src={signupBot} alt="" />
             </div>
             <form action="">
               <div className="signup-name">

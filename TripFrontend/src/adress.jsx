@@ -4,7 +4,8 @@ import Hotel from './hotel';
 import { IoSearch } from "react-icons/io5";
 import axios from 'axios'; // Import axios
 
-const HotelContainer = ({ hotels, loading, error }) => {
+
+const HotelContainer = ({ hotels, loading, error, cityCode }) => {
   if (loading) {
     return <div>Loading hotels...</div>;
   }
@@ -16,18 +17,18 @@ const HotelContainer = ({ hotels, loading, error }) => {
   return (
     <div className="hotel-reccomendation">
       <h3 className="hotel-text" style={{ color: "white" }}>
-        We have found over 10000 hotels for you to stay
+        We have found hotels for you to stay
       </h3>
       <div className='hotel-container'>
         {hotels.length > 0 ? (
           hotels.slice(0, 5).map((hotel, index) => (
             <Hotel
               key={index}
-              image={hotel.image || 'default.jpg'}
-              hotelname={hotel.name}
-              pricing={hotel.pricing}
-              place={hotel.place}
-              rating={hotel.rating}
+              image={hotel.image || 'hotel1.jpg'}
+              hotelname={hotel.name.slice(0,10)}
+              pricing="$ 98"
+              place={cityCode} 
+              rating="8.6"
               iataCode={hotel.iataCode}
             />
           ))
@@ -57,7 +58,7 @@ const Address = () => {
         `https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-city?cityCode=${cityCode}&radius=1`,
         {
           headers: {
-            Authorization: 'Bearer o9mtMeHtpu08BzNnGAZzXgeAAfof',
+            Authorization: 'Bearer a7PitU6r0bAPemmCgo2ZOHjPyfWr', // Secure this token
           },
         }
       );
@@ -87,7 +88,7 @@ const Address = () => {
             <div className="address-text-wrapper">Going to</div>
             <input
               className="address-text-wrapper-2"
-              onChange={(e) => setCityCode(e.target.value)}
+              onChange={(e) => setCityCode(e.target.value)} // Directly updating state
               placeholder="Enter city code (e.g., NYC)"
             />
           </div>
@@ -97,11 +98,10 @@ const Address = () => {
           Search <IoSearch />
         </button>
       </div>
-      {/* Render HotelContainer and pass hotels, loading, and error as props */}
-      <HotelContainer hotels={hotels} loading={loading} error={error} />
+      {/* Render HotelContainer and pass hotels, loading, error, and cityCode as props */}
+      <HotelContainer hotels={hotels} loading={loading} error={error} cityCode={cityCode} />
     </div>
   );
 };
 
 export default Address;
-
