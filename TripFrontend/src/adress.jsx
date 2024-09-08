@@ -57,7 +57,7 @@ const Address = () => {
         `https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-city?cityCode=${cityCode}&radius=1`,
         {
           headers: {
-            Authorization: 'Bearer o9mtMeHtpu08BzNnGAZzXgeAAfof',
+            Authorization: 'Bearer SnM0FrFiMNqhGBNWpo2yf3lcHG5n',
           },
         }
       );
