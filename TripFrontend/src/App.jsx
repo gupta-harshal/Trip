@@ -5,6 +5,7 @@ import Signup from "./Signup.jsx";
 import Booking from "./booking.jsx";
 import Bot from "./Bot.jsx";
 import Signupform from "./signupform.jsx";
+import Chatbox from "./CHAT_BOT.jsx";
 const App=()=>{
   const router=createBrowserRouter([
     {
@@ -20,7 +21,7 @@ const App=()=>{
       element:<Booking/>
     },{
       path:'/chat',
-      element:<Bot/>
+      element:<Chatbox/>
     },
     {
       path:'/signupform',
